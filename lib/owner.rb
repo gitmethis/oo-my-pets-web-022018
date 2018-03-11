@@ -2,7 +2,7 @@ class Owner
   
   # code goes here
   @@all = []
-  @pets = {}
+
   
   attr_accessor :name, :pets
   
@@ -31,6 +31,6 @@ class Owner
   end
   
   def pets
-    
+    @pets = {  
   end
 end
