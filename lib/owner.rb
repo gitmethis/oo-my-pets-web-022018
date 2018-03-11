@@ -13,6 +13,6 @@ class Owner
   end
   
   def self.reset
-    
+    @@all = []
   end
 end
