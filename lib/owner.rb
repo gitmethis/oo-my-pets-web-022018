@@ -7,4 +7,8 @@ class Owner
   def initialize(name)
     name
   end
+  
+  def self.count
+    
+  end
 end
