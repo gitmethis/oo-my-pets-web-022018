@@ -37,4 +37,9 @@ class Owner
       :cats => []
     }
   end
+  
+  
+  def buy_fish
+    
+  end
 end
