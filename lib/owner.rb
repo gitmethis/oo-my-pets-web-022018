@@ -1,8 +1,10 @@
 class Owner
   # code goes here
+  @@all = []
   
-  def initialize()
-    
-    
+  attr_accessor :name
+  
+  def initialize(name)
+    name
   end
 end
