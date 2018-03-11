@@ -19,4 +19,8 @@ class Owner
   def self.all
     @@all  
   end
+  
+  def species
+       
+  end
 end
