@@ -74,7 +74,7 @@ class Owner
   def sell_pets
     
     pets.each{
-      |each_categorie_of_pet|
+      |key,each_categorie_of_pet|
       each_categorie_of_pet.each{
         |each_pet|
         each_pet.mood = 'nervous'
