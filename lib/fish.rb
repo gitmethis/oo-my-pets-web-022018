@@ -1,7 +1,7 @@
 class Fish
   # code goes here
   
-  def initialize()
-    
+  def initialize(name)
+    @name = name  
   end
 end
