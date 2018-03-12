@@ -7,7 +7,7 @@ class Owner
   attr_accessor :name, :pets
   
   def initialize(name)
-    name
+    
   end
   
   def self.count
