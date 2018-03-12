@@ -72,6 +72,16 @@ class Owner
   end
   
   def sell_pets
+    
+    pets.each{
+      |each_categorie_of_pet|
+      each_categorie_of_pet.each{
+        |each_pet|
+        each_pet.mood = 'nervous'
+      }
+    }
+    
+    
     # @pets = { 
     #   :fishes => [],
     #   :dogs => [],
