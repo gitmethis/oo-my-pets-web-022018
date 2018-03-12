@@ -82,10 +82,10 @@ class Owner
     }
     
     
-    # @pets = { 
-    #   :fishes => [],
-    #   :dogs => [],
-    #   :cats => []
-    # }
+    @pets = { 
+      :fishes => [],
+      :dogs => [],
+      :cats => []
+    }
   end
 end
